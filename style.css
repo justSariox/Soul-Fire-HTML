@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "ccrickveitchw05";
+    src: url("assets/fonts/ccrickveitchw05.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 24px;
+    background: linear-gradient(70deg, #FFEAED, #FFFFFF);
+    color: #000;
+
+}
+
+.wrapper {
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.header__container {
+    display: flex;
+    min-height: 114px;
+    align-items: center;
+
+}
+
+.nav__menu {
+    flex: 1 1 auto;
+
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+.menu__item {
+
+
+}
+
+.menu__link {
+    font-family: "ccrickveitchw05", "CCRickVeitch W05(RUS BY LYAJKA)", serif;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 2.2;
+    letter-spacing: 1px;
+}
+
+.menu__logo {
+
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"] {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
